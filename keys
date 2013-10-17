@@ -30,7 +30,6 @@ OnDesktop Mouse3 :rootMenu
 OnDesktop Mouse4 :nextWorkspace
 OnDesktop Mouse5 :prevWorkspace
 
-ChangeWorkspace :Exec ~/.fluxbox/bin/changebg.sh
 
 #===========Controle de Areas==========
 #Movimento
@@ -79,6 +78,8 @@ Mod4 T :ToggleDecor
 None F12 :ExecCommand ~/.fluxbox/bin/term
 #Run
 Mod4 R :ExecCommand fbrun
+Mod4 M :ExecCommand pcmanfm
+ChangeWorkspace :Exec ~/.fluxbox/bin/changebg.sh
 
 #Volume
 Mod4 Next :ExecCommand /usr/bin/aumix -v -5
