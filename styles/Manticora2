@@ -1,0 +1,137 @@
+# Style name: Manticora
+# Style Author: Vastar ( vastar@mpoczta.net )
+
+#menu
+menu.title: Raised Bevel1 Gradient Vertical
+menu.title.textColor: #000000
+menu.title.color: #ebebeb
+menu.title.colorTo: #ffffff
+menu.title.font: -misc-abduction-medium-r-normal--14-0-100-100-p-0-iso8859-1
+menu.title.justify: Center
+
+menu.frame:  Raised Bevel2 Gradient Crossdiagonal
+menu.frame.color: #ebebeb
+menu.frame.colorTo: #cacbd1
+menu.frame.textColor:	#000000
+menu.frame.font: -misc-fixed-bold-r-normal--18-120-100-100-c-90-iso8859-9
+menu.frame.justify: Left
+menu.bullet.position: Right
+menu.bullet: triangle
+
+menu.bevelWidth: 4
+
+menu.hilite: Sunken Bevel2 Gradient Crossdiagonal
+menu.hilite.textColor: #000000
+menu.hilite.color: #ebebeb
+
+#window
+window.justify: Center
+window.alpha: 255
+window.title.height:
+window.bevelWidth: 2
+window.borderWidth: 1
+window.handleWidth: 4
+window.borderColor: #525050
+
+#window.close.pixmap: ~/fluxbox/pixmaps/Manticora/close.xpm
+#window.maximize.pixmap: ~/fluxbox/pixmaps/Manticora/max.xpm
+#window.iconify.pixmap: ~/fluxbox/pixmaps/Manticora/icon.xpm
+#window.stick.pixmap: ~/fluxbox/pixmaps/Manticora/stick.xpm
+
+#window.close.pressed.pixmap: ~/fluxbox/pixmaps/Manticora/close_pr.xpm
+#window.maximize.pressed.pixmap: ~/fluxbox/pixmaps/Manticora/max_pr.xpm
+#window.iconify.pressed.pixmap: ~/fluxbox/pixmaps/Manticora/icon_pr.xpm
+#window.stick.pressed.pixmap: ~/fluxbox/pixmaps/Manticora/stick_pr.xpm
+
+#window.close.unfocus.pixmap: ~/fluxbox/pixmaps/Manticora/close_un.xpm
+#window.maximize.unfocus.pixmap: ~/fluxbox/pixmaps/Manticora/max_un.xpm
+#window.iconify.unfocus.pixmap: ~/fluxbox/pixmaps/Manticora/icon_un.xpm
+#window.stick.unfocus.pixmap: ~/fluxbox/pixmaps/Manticora/stick_un.xpm
+
+
+window.grip.focus: Raised Bevel1 Gradient Vertical
+window.grip.focus.color: #ebebeb
+window.grip.focus.colorTo: #ffffff
+
+window.grip.unfocus: Raised Bevel1 Gradient Vertical
+window.grip.unfocus.color: #cfcfcf
+window.grip.unfocus.colorTo: #cfcfcf
+
+window.handle.focus: Raised Bevel1 Gradient Vertical
+window.handle.focus.color:	#ebebeb
+window.handle.focus.colorTo: #ffffff
+
+window.handle.unfocus: Raised Bevel1 Gradient Vertical
+window.handle.unfocus.color: #cfcfcf
+window.handle.unfocus.colorTo: #cfcfcf
+
+window.label.focus: Raised Bevel1 Gradient Vertical
+window.label.focus.color: #afafaf
+window.label.focus.colorTo: #ffffff
+window.label.focus.textColor: #000000
+window.label.focus.justify: Center
+
+window.justify:	Center
+window.label.unfocus: Raised Bevel1 Gradient Vertical
+window.label.unfocus.color:  #918f8f
+window.label.unfocus.colorTo: #d3d1d1
+window.label.unfocus.textColor:	#747171
+
+window.title.focus: 
+window.title.focus.color: #ebebeb
+window.title.focus.colorTo:
+
+window.title.unfocus: Raised Bevel2 Gradient Horizontal
+window.title.unfocus.color: #918f8f
+window.title.unfocus.colorTo: #d3d1d1
+window.frame.focusColor: #525050
+window.frame.unfocusColor: #525050
+
+#toolbar
+toolbar: flat
+#toolbar.pixmap:
+#toolbar.color: #ebebeb
+#toolbar.colorTo:
+#toolbar.borderWidth: 2
+#toolbar.borderColor: #f9320e
+#toolbar.bevelWidth: 2
+#toolbar.shaped: True
+toolbar.alpha: 255
+toolbar.height: 17
+
+toolbar.clock: Raised Bevel2 Gradient Elliptic
+toolbar.clock.colorTo: #cacbd1
+toolbar.clock.color: #ebebeb
+toolbar.clock.textColor: #000000
+toolbar.clock.justify: Center
+
+toolbar.workspace: Raised Bevel2 Gradient Elliptic
+toolbar.workspace.colorTo: #cacbd1
+toolbar.workspace.color: #ebebeb
+toolbar.workspace.textColor: #000000
+toolbar.workspace.justify: Center
+
+toolbar.iconbar.focused: Sunken Bevel2 Gradient Diagonal
+
+toolbar.iconbar.focused.color: #ebebeb
+toolbar.iconbar.focused.colorTo: #969594
+toolbar.iconbar.focused.borderWidth: 2
+toolbar.iconbar.focused.borderColor: #848181
+toolbar.iconbar.focused.textColor: #000000
+toolbar.iconbar.focused.justify: Center
+
+toolbar.iconbar.unfocused: Raised Bevel2 Gradient Rectangle
+toolbar.iconbar.unfocused.color: #ebebeb
+toolbar.iconbar.unfocused.colorTo: #cacbd1
+toolbar.iconbar.unfocused.borderWidth: 2
+toolbar.iconbar.unfocused.borderColor: #848181
+toolbar.iconbar.unfocused.textColor: #747171
+toolbar.iconbar.unfocused.justify: Center
+
+#toolbar.iconbar.empty: Raised Bevel1 Gradient Vertical
+#toolbar.iconbar.empty.color:#ebebeb
+#toolbar.iconbar.empty.colorTo: #cfcfcf
+
+#toolbar.iconbar.borderWidth: 3
+#toolbar.iconbar.borderColor: #0c33f4
+rootCommand:                     /usr/bin/fbsetbg ~/.fluxbox/backgrounds/Manticora.jpg

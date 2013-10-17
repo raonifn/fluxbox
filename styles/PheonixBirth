@@ -1,0 +1,98 @@
+
+toolbar:								flat gradient vertical
+toolbar.color:							#000000
+toolbar.colorTo:						#000000
+toolbar.label:							parentrelative
+toolbar.label.textColor:				#cccccc
+toolbar.windowLabel:            			sunken gradient crossdiagonal
+toolbar.windowLabel.color:			#8e2687
+toolbar.windowLabel.colorTo:			#c55ec2
+toolbar.windowLabel.textColor:		#ffffff
+toolbar.clock:						parentrelative
+toolbar.clock.textColor:				#cccccc
+toolbar.button:						parentrelative
+toolbar.button.picColor:				#cccccc
+toolbar.button.pressed:				raised gradient vertical
+toolbar.button.pressed.color:			#ab168f
+toolbar.button.pressed.colorTo:			#c55ec2
+toolbar.workspace:					raised gradient vertical
+toolbar.workspace.borderWidth:		0
+toolbar.workspace.color:				#000000
+toolbar.workspace.colorTo: 			#ab168f
+
+menu.title:							raised gradient crossdiagonal
+menu.title.color:						#8e2687
+menu.title.colorTo:					#ab168f
+menu.title.textColor:					#ffffff
+menu.frame:							sunken gradient crossdiagonal
+menu.frame.color:						#ab168f
+menu.frame.colorTo:					#000000
+menu.frame.textColor:					#cccccc
+menu.hilite:							sunken gradient crossdiagonal
+menu.hilite.color:						#8e2687
+menu.hilite.colorTo:					#000000
+menu.hilite.textColor:					#ffffff
+menu.bullet:							triangle
+menu.bullet.position:					right
+menu.roundCorners:					TopRight  BottomRight  TopLeft   BottomLeft
+
+window.title.focus:					raised gradient diagonal
+window.title.focus.color:				#ffffff
+window.title.focus.colorTo:			#ab168f
+
+window.label.focus:					sunken gradient crossdiagonal
+window.label.focus.color:				#8e2687
+window.label.focus.colorTo:			#ab168f
+window.label.focus.textColor:			gray90
+
+window.button.focus:					parentrelative
+window.button.focus.picColor:			#cccccc
+window.button.pressed:				flat gradient vertical
+window.button.pressed.color:			#ab168f
+window.button.pressed.colorTo:		#ab168f
+	
+window.handle.focus:					raised gradient diagonal
+window.handle.focus.color:			#000000
+window.handle.focus.colorTo:			#ab168f
+
+window.grip.focus:					raised gradient diagonal
+window.grip.focus.color:				#ab168f
+window.grip.focus.colorTo:			#8e2687
+
+window.frame.focusColor:				#000000
+window.frame.focus.color:				#000000
+
+window.title.unfocus:					raised gradient diagonal
+window.title.unfocus.color:			gray40
+window.title.unfocus.colorTo:			#ab168f
+
+window.label.unfocus:				parentrelative
+window.label.unfocus.textColor:		#000000
+
+window.button.unfocus:				parentrelative
+window.button.unfocus.picColor:		#727272
+
+window.handle.unfocus:				raised gradient diagonal
+window.handle.unfocus.color:			#000000
+window.handle.unfocus.colorTo: 		#ab168f
+
+window.grip.unfocus:					raised gradient diagonal
+window.grip.unfocus.color:			#ffffff
+window.grip.unfocus.colorTo:			#ab168f
+	
+window.frame.unfocusColor:			#5e6166
+window.frame.unfocus.color:			#5e6166
+window.roundCorners:				TopRight  BottomRight  TopLeft  BottomLeft	
+
+*.font:								-*-urw chancery l-*-*-*-*-18-*-*-*-*-*-*
+toolbar.justify:						center
+window.justify:						right
+menu.title.justify:					center
+menu.frame.justify:					right
+	
+borderColor:							#000000
+borderWidth:						1
+bevelWidth:							2
+handleWidth:						4
+frameWidth:							0
+rootCommand:                     /usr/bin/fbsetbg ~/.fluxbox/backgrounds/PhoenixBirth1-0.jpg
