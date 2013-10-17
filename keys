@@ -78,7 +78,7 @@ Mod4 T :ToggleDecor
 None F12 :ExecCommand ~/.fluxbox/bin/term
 #Run
 Mod4 R :ExecCommand fbrun
-Mod4 M :ExecCommand pcmanfm
+Mod4 E :ExecCommand pcmanfm
 ChangeWorkspace :Exec ~/.fluxbox/bin/changebg.sh
 
 #Volume
