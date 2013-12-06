@@ -1,2 +1,2 @@
-#background: fullscreen 
+background: none
 #background.pixmap:  ~/.fluxbox/backgrounds/excalibur.jpg
