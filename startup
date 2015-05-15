@@ -41,8 +41,9 @@ xmodmap ~/.xmodmaprc
 # wmsmixer -w &
 # idesk &
 #/usr/bin/wmxmms -t &
-#/usr/bin/gkrellm -w &
+/usr/bin/gkrellm -w &
 /usr/bin/xscreensaver -no-splash&
+/usr/bin/nm-applet &
 
 # And last but not least we start fluxbox.
 # Because it is the last app you have to run it with ''exec'' before it.

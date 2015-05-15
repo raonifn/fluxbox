@@ -88,8 +88,5 @@ Mod4 Prior :ExecCommand /usr/bin/aumix -v +5
 Mod4 Break :ExecCommand /usr/bin/xscreensaver-command -lock
 
 
-
-
-
-
-
+#Touchpad
+Mod4 F6 :ExecCommand ~/.fluxbox/bin/touchpad.sh
